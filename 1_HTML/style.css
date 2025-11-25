@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(20, 30, 40);
+    color: white;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    color: rgb(100, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+    padding-left: 1rem;
+}
+
+
+.list_with_title p,ul {margin: 0rem;}
+.list_with_title {padding: 1rem 0 1rem 0}

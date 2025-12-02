@@ -1,0 +1,41 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+
+    --gray-blue: #2C3E50;
+    --blue: #3498DB;
+    --orange: #E67D23;
+    --gold: #FDCB6E;
+    --pink: #FFE6E6;
+    --red: #C0392B;
+    --light-gray: #EDEEF1;
+    --dark-gray: #7F8C8D;
+}
+
+body {
+    background-color: var(--light-gray);
+}
+
+h1 {
+    text-align: center;
+    color: var(--gray-blue);
+    text-shadow: 0 0.05rem 0.25rem gray;
+}
+
+h2 {
+    text-align: center;
+    color: var(--dark-gray);
+
+    font-style: italic;
+}
+
+.orange_line {
+    border-color: var(--orange);
+    width: 33rem;
+}
+
+.main_box {
+    border-radius: 0.75rem;
+    margin: 3rem auto;
+
+    background-color: white;
+}

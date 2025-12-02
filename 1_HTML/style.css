@@ -18,6 +18,12 @@ ul {
     padding-left: 1rem;
 }
 
+.depth li{
+    font-size: 75%;
+}
+.depth {
+    margin-bottom: 0.75rem;
+}
 
 .list_with_title p,ul {margin: 0rem;}
 .list_with_title {padding: 1rem 0 1rem 0}

@@ -2,8 +2,7 @@
     font-family: Arial, Helvetica, sans-serif;
 
     --gray-blue: #2C3E50;
-    --blue: #3498DB;
-    --orange: #E67D23;
+    --light-blue: #3498DB;
     --gold: #FDCB6E;
     --pink: #FFE6E6;
     --red: #C0392B;
@@ -15,11 +14,6 @@ body {
     background-color: var(--light-gray);
 }
 
-h1 {
-    text-align: center;
-    color: var(--gray-blue);
-    text-shadow: 0 0.05rem 0.25rem gray;
-}
 
 h2 {
     text-align: center;
@@ -28,9 +22,18 @@ h2 {
     font-style: italic;
 }
 
-.orange_line {
-    border-color: var(--orange);
-    width: 33rem;
+ol {
+    list-style: decimal-leading-zero;
+    padding-left: 5rem;
+}
+
+ol p{
+    
+}
+
+li p{
+    color: orange;
+    font-weight: 800;
 }
 
 .main_box {

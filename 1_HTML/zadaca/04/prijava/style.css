@@ -1,0 +1,44 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(190, 200, 200);
+}
+
+table,th,td {
+    border-bottom: 0.1rem solid gray;
+    border-collapse: collapse;
+}
+
+table {
+    background-color: white;
+    width: 90%;
+    margin: 0 auto;
+}
+thead {
+    background-color: lightgray;
+    text-align: left;
+}
+
+th, td {
+    padding: 0.5rem;
+}
+
+.ze {
+    color: green;
+}
+
+.cr {
+    color: red;
+}
+
+tfoot tr td {
+    text-align: center;
+    color: gray;
+    border: 0;
+}
+
+table, thead {
+    border-radius: 1rem;
+}

@@ -1,0 +1,22 @@
+body {
+    background-color: antiquewhite;
+}
+
+video#okruzenje {
+    max-width: 20rem;
+}
+
+.stranica {
+    min-width: 30rem;
+    min-height: 30rem;
+}
+
+.pdf {
+    width: 100%;
+    min-height: 70rem;
+}
+
+.karta {
+    width: 100%;
+    max-height: 50rem;
+}

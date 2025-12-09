@@ -8,16 +8,10 @@
 </head>
 <body>
     <div class="main_box">
-        <h1 style="
-                text-align: center;
-                color: #2C3E50;
-                text-shadow: 0 0.05rem 0.25rem gray;
-                font-size: 3rem;
-            ">POVIJEST HTML-A</h1>
-        <h2>Od jednostavnog teksta do modernog Weba</h2>
-        
-        <hr noshade="" style="border-color: orange; width: 32rem;">
-        
+        <h1>POVIJEST HTML-A
+            <p>Od jednostavnog teksta do modernog Weba</p>
+        </h1>
+
         <p>
             Sve je počelo 1989. godine u CERN-u. Tim Bernes-Lee je osmislio sustav koji bi istaživačima omogućio dijeljenje dokumenata. Taj sustav postao je poznat kao <mark>World Wide Web</mark>.
         </p>
@@ -33,18 +27,50 @@
             (HyperText Markup Language). Njegova osnovna svrha bila je semantički opisati strukturu dokumenta, a ne njegov izgled.
         </p>
 
-        <h1>Ključne verzije</h1>
+        <hr noshade=""/>
 
-        <ol>
-            <li><p>HTML 1.0 (1991)</p></li>
-            <p>Prva neslužbena verzija. Sadržavala je samo 18 tagova.</p>
-        </ol>
+        <h2>Ključne verzije</h2>
 
-        <p style="
-                color: rgb(155, 0, 0);
-                font-size: xx-large;
-            "><strong>Odustao !!</strong>
-        </p>
+        <dl class="html_lista">
+            <dt>01. <span>HTML 1.0 (1991)</span></dt>
+            <dd>Prva neslužbena verzija. Sadržavala je samo 18 tagova.</dd>
+            <dt>02. <span>HTML 2.0 (1995)</span></dt>
+            <dd>Prvi službeni standard (RFC 1866)</dd>
+            <dt>03. <span>HTML 3.2 (1997)</span></dt>
+            <dd>Uvedene tablice i apleti. "Rat preglednika" je bio u punom jeku.</dd>
+            <dt>04. <span>HTML 4.01 (1999)</span></dt>
+            <dd>Dominantna verzija gotovo desetljeće. Odvajanje stila (CSS) od sadržaja.</dd>
+            <dt>05. <span>HTML5 (2014)</span></dt>
+            <dd>Revolucija. Multimedija bez dodataka (`video`,`audio`), semantički elementi.</dd>
+        </dl>
+
+        <h2>Struktura Dokumenta</h2>
+
+        <code>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+    &lt;head&gt;
+        &lt;title&gt;Document&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;p&gt;Pozdrav Svijete!&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+        </code>
+
+        <p>Da biste spremili ovaj kod, pritisnite <span style="font-family: monospace;">Ctrl + S</span> na tipkovnici</p>
+
+        <h2>Važni pojmovi</h2>
+
+
+        <dl class="plava">
+            <dt>HTTP</dt>
+            <dd>HyperText Transfer Protocol - protokol za prijenos podataka.</dd>
+            <dt>UTI</dt>
+            <dd>Uniform - adresa resursa na webu.</dd>
+        </dl>
     </div>
 </body>
 </html>

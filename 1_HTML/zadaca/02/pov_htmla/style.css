@@ -1,44 +1,116 @@
 :root {
     font-family: Arial, Helvetica, sans-serif;
 
-    --gray-blue: #2C3E50;
-    --light-blue: #3498DB;
+    --light-blue: 52, 152, 219;
     --gold: #FDCB6E;
     --pink: #FFE6E6;
     --red: #C0392B;
     --light-gray: #EDEEF1;
-    --dark-gray: #7F8C8D;
 }
 
 body {
     background-color: var(--light-gray);
 }
 
+.main_box {
+    border-radius: 0.75rem;
+    width: 80%;
+    margin: 2rem auto;
+    padding: 2rem;
 
-h2 {
+    background-color: white;
+
+    box-shadow: 0rem 0rem 0.2rem gray;
+}
+
+h1 {
     text-align: center;
-    color: var(--dark-gray);
+    color: #2C3E50;
+    text-shadow: 0 0.05rem 0.25rem gray;
+    font-size: 3rem;
+}
+
+h1 p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: gray;
 
     font-style: italic;
+
+    text-shadow: none;
+
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-underline-offset: 1rem;
 }
 
-ol {
-    list-style: decimal-leading-zero;
-    padding-left: 5rem;
+mark {
+    background-color: rgba(255, 200, 100, 0.5);
+    border-radius: 0.25rem;
+    padding: 0.1rem;
 }
 
-ol p{
-    
+hr {
+    border-color: lightgray;
 }
 
-li p{
+/* sliika Tim Berners-Leeja */
+section {
+    border: 0.1rem solid lightgray;
+    padding: 0.5rem;
+    margin: 2rem auto;
+}
+
+section img {
+    width: 100%;
+}
+
+section p {
+    color: rgb(100, 100, 100);
+    font-style: italic;
+    margin: 0.5rem 0;
+    text-align: center;
+}
+
+/* lista o HTMLu */
+.html_lista {
+    border-left: 0.25rem solid var(--light-blue);
+    padding-left: 2rem;
+}
+.html_lista dt span {
     color: orange;
     font-weight: 800;
 }
-
-.main_box {
-    border-radius: 0.75rem;
-    margin: 3rem auto;
-
-    background-color: white;
+.html_lista dd {
+    font-size: 0.8rem;
+    margin: 0.5rem 0;
 }
+
+/* Codeblock */
+code pre {
+    font-family: monospace;
+    color: lightgray;
+
+    background-color: rgb(35, 40, 50);
+    padding: 1rem;
+    border-left: 0.5rem solid rgb(252, 202, 110);
+    border-radius: 0.25rem;
+}
+
+/* plava kutija */
+.plava {
+    background-color: rgba(var(--light-blue), 0.15);
+    border-radius: 0.25rem;
+    padding: 1rem;
+}
+
+.plava dt {
+    color: rgb(var(--light-blue));
+    font-weight: 800;
+}
+
+.plava dd {
+    font-family: monospace; /* Pojma nemam kako maknuti razmak */
+}
+
+/* crvena kutija */

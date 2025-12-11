@@ -1,0 +1,23 @@
+:root {
+    --pozadina-boja: lightgray;
+    --panel-boja: white;
+}
+
+body {
+    background-color: var(--pozadina-boja);
+}
+
+div {
+    font-family: sans-serif;
+    background-color: var(--panel-boja);
+    max-width: 300px;
+    margin: 100px auto;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: gray;
+    font-size: 1.1rem;
+}

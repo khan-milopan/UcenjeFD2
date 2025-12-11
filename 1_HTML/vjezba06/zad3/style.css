@@ -1,0 +1,41 @@
+body {
+    background-color: antiquewhite;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    padding: 10px;
+    width: 100%;
+    font-size: 1.1rem;
+}
+
+.panel {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.cijena {
+    color: green;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-areas: "a b c d";
+    font-family: sans-serif;
+}
+
+.a{grid-area: a;}
+.b{grid-area: b;}
+.c{grid-area: c;}
+.d{grid-area: d;}

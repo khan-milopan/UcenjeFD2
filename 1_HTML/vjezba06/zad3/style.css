@@ -1,41 +1,81 @@
 body {
-    background-color: antiquewhite;
-}
-
-button {
-    background-color: blue;
-    color: white;
-    border-radius: 5px;
-    border: 0;
-    padding: 10px;
-    width: 100%;
-    font-size: 1.1rem;
-}
-
-.panel {
-    background-color: white;
-    padding: 10px;
-    border: 1px solid gray;
-    border-radius: 5px;
-    text-align: center;
-}
-
-.cijena {
-    color: green;
-    font-weight: 900;
-    font-size: 1.5rem;
-}
-
-.container {
-    max-width: 960px;
-    margin: auto;
-    /* background-color: aqua; */
-    display: grid;
-    grid-template-areas: "a b c d";
+    background-color: aliceblue;
     font-family: sans-serif;
 }
 
-.a{grid-area: a;}
-.b{grid-area: b;}
-.c{grid-area: c;}
-.d{grid-area: d;}
+.container {
+    background-color: white;
+    /* border: 1px solid red; */
+    max-width: 960px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.form {
+    border: 1px solid #eaeceb;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.unos {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 1.3rem;
+    border-bottom: 2px solid blue;
+    padding-bottom: 10px;
+    max-width: 180px;
+}
+
+label {
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+select{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: green;
+    color: white;
+    padding: 0.5rem;
+    border: 0;
+    border-radius: 5px;
+    max-width: 200px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    font-size: 0.8em;
+    text-align: left;
+}
+
+tbody > tr > td:first-child,
+thead > tr > th:first-child {
+    text-align: center;
+}
+
+tbody > tr > td:last-child {
+    color: red;
+    text-align: center;
+}

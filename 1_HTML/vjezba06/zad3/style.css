@@ -71,7 +71,8 @@ th {
 }
 
 tbody > tr > td:first-child,
-thead > tr > th:first-child {
+thead > tr > th:first-child,
+thead > tr > th:last-child {
     text-align: center;
 }
 

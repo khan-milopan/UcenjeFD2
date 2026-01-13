@@ -69,3 +69,10 @@ li span {
     color: var(--salmon);
     font-weight: bold;
 }
+
+/* Area D */
+
+.stars {
+    font-size: xx-large;
+    margin: 0 auto;
+}

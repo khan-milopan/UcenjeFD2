@@ -1,5 +1,6 @@
 :root {
     font-family: sans-serif;
+    --granica: 2px solid blue;
 }
 
 h1 {
@@ -18,9 +19,9 @@ h1 {
 
 .b {
     grid-area: b;
-    border-left: 2px solid black;
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
+    border-left: var(--granica);
+    border-bottom: var(--granica);
+    border-right: var(--granica);
 }
 
 .c {
@@ -30,5 +31,5 @@ h1 {
 }
 
 .a, .c {
-    border-top: 2px solid black;
+    border-top: var(--granica);
 }

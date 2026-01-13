@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VjezbaPonavljanje</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        input[type="submit"] {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vježba povratak na nastavu</h1>
+    <div id="grid">
+        <div class="a">
+            <form action="stranica.html">
+                <fieldset>
+                    <legend>Podatci</legend>
+
+                    <label for="datum">Datum</label>
+                    <input type="datetime-local" name="datum" id="datum">
+                    <hr>
+
+                    Status polaznika <br>
+                    <input type="radio" name="redoviti" id="redoviti" value="true">
+                    <label for="redoviti">Redoviti</label> <br>
+                    <input type="radio" name="redoviti" id="neredoviti" value="false">
+                    <label for="neredoviti">Neredoviti</label>
+                    <hr>
+                    
+                    Domaće zadaće <br>
+                    <input type="checkbox" name="dz[]" id="d1" value="1">
+                    <label for="d1">1 - 3</label> <br>
+                    <input type="checkbox" name="dz[]" id="d2" value="2">
+                    <label for="d2">4 - 9</label>
+                    <hr>
+
+                    <label for="ocjena">Ocjena</label>
+                    <select name="ocjena" id="ocjena">
+                        <option value="1">Nedovoljan (1)</option>
+                        <option value="2">Dovoljan (2)</option>
+                        <option value="3">Dobar (3)</option>
+                        <option value="4">Vrlo Dobar (4)</option>
+                        <option value="5" selected="selected">Odličan (5)</option>
+                    </select>
+                    <hr>
+
+                    <input type="submit" value="Potvrdi">
+                </fieldset>
+            </form>
+        </div>
+        <div class="b"></div>
+        <div class="c">
+            <span style="font-size: 2rem;">L</span>orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra porttitor magna id hendrerit. Phasellus in hendrerit felis, et vulputate lacus. Nunc malesuada tincidunt nulla, et bibendum ex cursus sit amet. Integer eget ex eget odio congue pharetra. Aliquam erat volutpat. Proin in ultricies urna. Quisque pretium sapien id lacus pretium, nec convallis est molestie. Aliquam molestie, quam ac lobortis euismod, dolor enim molestie tortor, ultrices tincidunt purus erat quis magna. Integer non placerat mi.
+        </div>
+    </div>
+</body>
+</html>

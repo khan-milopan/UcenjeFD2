@@ -1,4 +1,22 @@
 body{
-    font-family: sans-serif;
     background-color: antiquewhite;
+}
+
+@font-face {
+    font-family: 'Ljubav';
+    src: url('../fonts/LavishlyYours-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Galada';
+    src: url('../fonts/Galada-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('../fonts/Satoshi/Satoshi-Regular.otf') format('opentype');
+}
+
+h1 {
+    font-family: 'Satoshi', 'Galada', 'Ljubav', 'Times New Roman', serif;
 }

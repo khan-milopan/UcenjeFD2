@@ -1,0 +1,22 @@
+:root {
+    --background: #304152;
+    --accent: #20BA9B;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+
+.ct {
+    max-width: 100dvw;
+}
+
+.top, .bot {
+    background-color: var(--background);
+
+    padding: 1vh 0;
+}

@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(240, 240, 250);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+.card {
+    background-color: rgb(10, 60, 80);
+}

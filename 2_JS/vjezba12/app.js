@@ -70,3 +70,19 @@ console.log(korisnici.find(o => o.ime === 'Karlo' && o.prezime === 'Totig').id);
 
 console.log(korisnici.findIndex(o => o.id === 10)); // findIndex() vrati -1 ako nije pronašao
 
+// filter()
+
+console.table(korisnici.filter(o => o.godina > 40));
+
+// reduce()
+
+console.log(korisnici.reduce((suma,o) => suma + o.godina, 0)); // 0 je početna vrijednost sume
+
+// some()
+
+console.log(korisnici.some(o => o.admin) ? 'Ima admin' : 'Nema admin');
+
+// every()
+
+console.log(korisnici.every(o => o.godina >= 18) ? 'Svi su punoljetni' : 'Nisu svi punoljetni')
+
